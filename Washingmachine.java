@@ -1,16 +1,23 @@
-class Washingmachine{
+class WashingMachine{
 
-  public static void main(String[] lg){
-	  
-	  //display message
+     public static void main(String  showroom[]){
+	 
+	 String brandName = "Samsung";
+	 String color = "White";
+	 int price = 16000;
+	 String accessLoc = "Top";
+	 int capacity = 6;
+	 String origin = "India";
 
-   System.out.println("Fully-automatic front load washing machine with Hygiene Steam/direct-drive technology: Best Wash Quality, Energy and Water efficient");
-   System.out.println("Capacity 8 kg: Suitable for large families");
-   System.out.println("1400 RPM: higher spin speeds helps in faster drying");
-   System.out.println("Manufacturer Warranty: 2 Years Comprehensive & 10 Years on Motor T&C");
-   System.out.println("Energy Star rating: 5 Star best in class efficiency; Energy consumption –0.062 KWh/kg/cycle & Water Consumption: 8.250 L/Kg/Cycle");	  
-	  
-  }
-  
-   
-   }
+	 System.out.println("The brand name of washing machine is "+ brandName );
+	 System.out.println("The color of this product is "+ color );
+	 System.out.println("The price of this is  "+ price);
+	 System.out.println("The location of access of clothes is "+ accessLoc );
+	 System.out.println("The capacity of the mchine is"+ capacity );
+	 System.out.println("The origin of this product is "+ origin);
+	 
+	 
+	 }
+
+
+}

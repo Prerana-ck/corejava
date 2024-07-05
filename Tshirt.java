@@ -1,18 +1,23 @@
 class Tshirt{
 
-  public static void main(String[] allen){
-	  
-	  //display message
+     public static void main(String allen[]) {
+	 
+	 
+	String material = "Cotton";
+	String color = "black";
+	String sleeveType = "Half";
+	int price = 800;
+	String occasion = "Causual";
+	String origin = "India";
+	 
+	 System.out.println("The material of tshirt is "+ material );
+	 System.out.println("The color of tshirt is "+ color );
+	 System.out.println("The type of sleeve is "+ sleeveType );
+	 System.out.println("The price of tshirt is "+ price );
+	 System.out.println("The occasion of tshirt is "+ occasion );
+	 System.out.println("The origin of product is "+ origin );
+	 
+	 }
 
-   System.out.println("Sleeve Type: Half Sleeve; Closure Type: Button; Collar Style: Band Collar; Material Composition: 60% Cotton, 40% Polyestet");
-   System.out.println(" 60% Cotton and 40% Polyester");
-   System.out.println("All garments are subjected to the following tests Fabric dimensional stability test and quality inspection for colours and wash fastness");
-   System.out.println("Aditya Birla Fashion and Retail Limited, Aditya Birla Fashion & Retail Ltd, 7th Flr, Skyline Ikon Business Park, AK Road, Andheri East, Mumbai-400059");
-   System.out.println("The bio wash treatment not only enhances the softness of the fabric but also adds a luxurious feel, ensuring a smooth texture against your skin.");	  
-   System.out.println("Featuring a contemporary graphic print, this T-shirt adds a touch of flair to your casual wardrobe, making it a standout piece for any occasion");	
-   System.out.println("Pair it with jeans or shorts for a casual look, or layer it under a jacket for added style versatility; this T-shirt effortlessly elevates your outfit");	
-	  
-  }
-  
-   
-   }
+
+}
