@@ -1,13 +1,15 @@
 class Lamp{
 
+      
+   static String brandName = "Ziva";
+   static int price = 1200 ;
+   static String color = "pink";
+   static int capacity = 100 ;
+   static String origin = "India";
+
 
    public static void main(String shop[]){
-   
-   String brandName = "Ziva";
-   int price = 1200 ;
-   String color = "pink";
-   int capacity = 100 ;
-   String origin = "India";
+
    
    System.out.println("The brand name of the lamp is " + brandName);
    System.out.println("The price of the lamp is " + price);
@@ -17,6 +19,5 @@ class Lamp{
    
    
    }
-
 
 }

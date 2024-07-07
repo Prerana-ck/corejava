@@ -1,13 +1,15 @@
 class SunGlasses{
 
+        
+   static String brandName = "Voyage ";
+   static int price = 800;
+   static int weightInGms = 50;
+   static String frameShape = "Square";
+   static String frameMaterial = "Metal";
+   static String origin = "India";
+
    public static void main(String Shop[]) {
-   
-   String brandName = "Voyage ";
-   int price = 800;
-   int weightInGms = 50;
-   String frameShape = "Square";
-   String frameMaterial = "Metal";
-   String origin = "India";
+
    
    System.out.println("The brand name of the barnd is " + brandName );
    System.out.println("The price of this product is " + price );

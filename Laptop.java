@@ -1,13 +1,14 @@
 class Laptop{
 
-
+        
+   static String brandName = "Dell";
+   static int price =  80000;
+   static String color = "Black";
+   static int capacity = 80;
+   static String origin = "India";
+ 
    public static void main(String shop[]){
-   
-   String brandName = "Dell";
-   int price =  80000;
-   String color = "Black";
-   int capacity = 80;
-   String origin = "India";
+
    
    System.out.println("The brand name of the laptop is " + brandName );
    System.out.println("The price of the laptop is " + price);

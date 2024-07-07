@@ -1,14 +1,15 @@
 class Moisturizer{
 
-   public static void main(String shop[]) {
+       
+   static String brandName = "Ponds ";
+   static int price = 380;
+   static String skinType = "All";
+   static String type = "Gel";
+   static String scent = "Musk";
+   static int weightInGrms = 9;
+   static String origin = "India";
    
-   String brandName = "Ponds ";
-   int price = 380;
-   String skinType = "All";
-   String type = "Gel";
-   String scent = "Musk";
-   int weightInGrms = 9;
-   String origin = "India";
+   public static void main(String shop[]) {
    
    System.out.println("The brand name of the moisturizer is " + brandName );
    System.out.println("The price of this product is " + price );

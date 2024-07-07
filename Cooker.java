@@ -1,13 +1,15 @@
 class Cooker{
 
+     
+    static String brandName = "Piegon";
+	static int capacityInLiters = 5;
+	static String material = "Aluminium";
+	static int weightInKg = 1;
+	static String color = "Black";
+	static String controlMethod = "Touch" ;
+
   public static void main(String shop[]){
-  
-    String brandName = "Piegon";
-	int capacityInLiters = 5;
-	String material = "Aluminium";
-	int weightInKg = 1;
-	String color = "Black";
-	String controlMethod = "Touch" ;
+
 	
 	System.out.println("The name of the brand is " + brandName);
 	System.out.println("The capacity of cooker is is " + capacityInLiters);

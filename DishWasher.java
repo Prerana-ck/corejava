@@ -1,13 +1,15 @@
 class DishWasher{
 
+       
+   static String brandName = "LG";
+   static int price = 50000 ;
+   static String color = "Black";
+   static int capacity = 500 ;
+   static String origin = "India";
+
 
    public static void main(String showroom[]){
-   
-   String brandName = "LG";
-   int price = 50000 ;
-   String color = "Black";
-   int capacity = 500 ;
-   String origin = "India";
+
    
    System.out.println("The brand name of dish washer " + brandName);
    System.out.println("The price of dish washer is " + price);

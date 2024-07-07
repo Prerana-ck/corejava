@@ -1,13 +1,15 @@
 class PowerBank{
 
+      
+   static int price = 3000;
+   static String  batteryCapacity = "2000mah";
+   static  String brandName = "MI";
+   static String color = "Black";
+   static String connectorType = "USB";
+   static String feature = "FastCharging";
+
   public static void main(String online[] ){
-   
-   int price = 3000;
-   String  batteryCapacity = "2000mah";
-   String brandName = "MI";
-   String color = "Black";
-   String connectorType = "USB";
-   String feature = "FastCharging";
+
   
   
     System.out.println("The price of the power bank is   " + price );

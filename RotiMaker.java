@@ -1,13 +1,14 @@
 class  RotiMaker{
 
+        
+   static String brandName = "Libra";
+   static int price = 1000 ;
+   static String color = "Black";
+   static int capacity = 100 ;
+   static String origin = "India";
 
    public static void main(String shop[] ){
-   
-   String brandName = "Libra";
-   int price = 1000 ;
-   String color = "Black";
-   int capacity = 100 ;
-   String origin = "India";
+
    
    System.out.println("The brand name of roti maker is " + brandName);
    System.out.println("The price of roti maker is " + price);

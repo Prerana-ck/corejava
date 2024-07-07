@@ -1,13 +1,15 @@
 class HandBag{
+     
+       
+   static String brandName = "Zouk ";
+   static int price = 2000 ;
+   static String type = "Zipper";
+   static String material = "Jute";
+   static int noOfPockets = 4;
+   static String origin = "India";
 
    public static void main(String shop[]) {
-   
-   String brandName = "Zouk ";
-   int price = 2000 ;
-   String type = "Zipper";
-   String material = "Jute";
-   int noOfPockets = 4;
-   String origin = "India";
+
    
    System.out.println("The brand name of the hand bag is " + brandName );
    System.out.println("The price of this product is " + price );

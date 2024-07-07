@@ -1,13 +1,14 @@
 class  Bulb{
 
+       
+   static String brandName = "Philips";
+   static int price = 300;
+   static String color = "White";
+   static int capacity = 200;
+   static String origin = "India";
 
    public static void main(String shop[]){
-   
-   String brandName = "Philips";
-   int price = 300;
-   String color = "White";
-   int capacity = 200;
-   String origin = "India";
+
    
    System.out.println("The brand name of the bulb is  " + brandName);
    System.out.println("The price of the bulb is " + price);

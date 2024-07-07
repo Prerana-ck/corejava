@@ -1,15 +1,17 @@
 class Pendrive {
 
+
+     
+   static int price = 600;
+   static String brandName = "Hp";
+   static String hardwareInterface = "USB";
+   static int storageInGb = 64;
+   static String speed = "70 Mbps";
+   static String color = "Silver";
+  
+  
+
   public static void main(String online[]){
-  
-   int price = 600;
-   String brandName = "Hp";
-   String hardwareInterface = "USB";
-   int storageInGb = 64;
-   String speed = "70 Mbps";
-   String color = "Silver";
-  
-  
   
   
     System.out.println("The price of the pendrive is  " + price );

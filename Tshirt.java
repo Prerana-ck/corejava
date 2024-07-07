@@ -1,14 +1,16 @@
 class Tshirt{
-
+     
+	 	 
+	static String material = "Cotton";
+	static String color = "black";
+	static String sleeveType = "Half";
+	static int price = 800;
+	static String occasion = "Causual";
+	static String origin = "India";
+	
      public static void main(String allen[]) {
 	 
-	 
-	String material = "Cotton";
-	String color = "black";
-	String sleeveType = "Half";
-	int price = 800;
-	String occasion = "Causual";
-	String origin = "India";
+
 	 
 	 System.out.println("The material of tshirt is "+ material );
 	 System.out.println("The color of tshirt is "+ color );

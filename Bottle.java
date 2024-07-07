@@ -1,13 +1,14 @@
 class Bottle {
 
+       
+   static String brandName = "Milton";
+   static int price = 500;
+   static String color = "Pink";
+   static int capacity = 1000 ;
+   static String origin = "India";
 
    public static void main(String shop[]){
-   
-   String brandName = "Milton";
-   int price = 500;
-   String color = "Pink";
-   int capacity = 1000 ;
-   String origin = "India";
+
    
    System.out.println("The brand name of bottle is " + brandName);
    System.out.println("The price of the bottle is " + price);

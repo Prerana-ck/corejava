@@ -1,14 +1,16 @@
 class BedSheet{
 
+
+     
+    static String brandName = "UrbanSpace";
+	static String color = "Grey";
+	static String size = "Doublesize";
+	static String material = "Cotton";
+	static int price = 1000;
+	static String pattren = "Floral" ;
+  
+
   public static void main(String shop[] ){
-  
-    String brandName = "UrbanSpace";
-	String color = "Grey";
-	String size = "Doublesize";
-	String material = "Cotton";
-	int price = 1000;
-	String pattren = "Floral" ;
-  
   
     System.out.println("The brand name of the bedsheet is  " + brandName );
     System.out.println("The color of the bedsheet is   " + color );

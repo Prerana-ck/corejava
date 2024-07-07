@@ -1,14 +1,16 @@
 class Candles{
 
+
+    	 
+	 static String brandName = "Welburn";
+	 static String color = "White";
+	 static int weightInGrams = 8;
+	 static int noOfItems = 100;
+	 static int price = 379;
+	 static String usageType = "Indoor";
+
      public static void main(String store[]) {
-	 
-	 String brandName = "Welburn";
-	 String color = "White";
-	 int weightInGrams = 8;
-	 int noOfItems = 100;
-	 int price = 379;
-	 String usageType = "Indoor";
-	 
+
 	
 	 System.out.println("The brand name of candle is "+ brandName );
 	 System.out.println("The color of candle is  "+ color );

@@ -1,13 +1,15 @@
 class Shoe{
 
+   
+    static String brandName = "Puma";
+	static int price = 2000;
+	static String color = "Red";
+	static int brandId = 864;
+	static String type = "Casual";
+	static int size = 6 ;
+
   public static void main(String showroom[]){
   
-    String brandName = "Puma";
-	int price = 2000;
-	String color = "Red";
-	int brandId = 864;
-	String type = "Casual";
-	int size = 6 ;
 	
 	System.out.println("The name of the brand is" + brandName);
 	System.out.println("The price of the shoe is" + price);

@@ -1,15 +1,15 @@
 class Guiter{
 
-
+       
+   static String brandName = "Yamaha ";
+   static int price = 8000 ;
+   static String color = "Natural";
+   static String topMaterial = "Rose";
+   static String bodyMaterial = "Rosewood";
+   static String origin = "India";
 
    public static void main(String shop[]) {
-   
-   String brandName = "Yamaha ";
-   int price = 8000 ;
-   String color = "Natural";
-   String topMaterial = "Rose";
-   String bodyMaterial = "Rosewood";
-   String origin = "India";
+
 
    
    System.out.println("The brand name of the guiter is " + brandName );
@@ -21,6 +21,5 @@ class Guiter{
     
    
    }
-
 
 }

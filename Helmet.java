@@ -1,14 +1,16 @@
 class Helmet{
 
   
+      
+    static String color = "Black";
+	static String brandName = "Steelbird";
+	static int weightInKgs = 1;
+	static String material = "Thermoresistant";
+	static int price = 2000;
+  
+  
   public static void main(String shop[]){
-  
-    String color = "Black";
-	String brandName = "Steelbird";
-	int weightInKgs = 1;
-	String material = "Thermoresistant";
-	int price = 2000;
-  
+
   
     System.out.println("The color of the helmet is  " + price );
     System.out.println("The brand name of the helmet is " + brandName );
