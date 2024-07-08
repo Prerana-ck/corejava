@@ -1,10 +1,13 @@
-class CameraRunner{
+class MicrophoneRunner{
 
 public static void main(String args[]){
 System.out.println("main started");
-Camera.capture();
+Microphone.turnOn();
+Microphone.turnOff();
 System.out.println("main ended");
 
 }
+
+
 
 }

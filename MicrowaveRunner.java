@@ -1,13 +1,11 @@
-class TelivisionRunner{
+class MicrowaveRunner{
 
 public static void main(String args[]){
 System.out.println("start of main");
-Telivision.turnOn();
-Telivision.turnOff();
+Microwave.turnOn();
+Microwave.turnOff();
 System.out.println("end of main");
 
-
 }
-
 
 }

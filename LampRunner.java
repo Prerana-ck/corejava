@@ -1,10 +1,13 @@
-class MedicineRunner{
+class LampRunner{
 
 public static void main(String args[]){
 System.out.println("main started");
-Medicine.cure();
+Lamp.turnOn();
+Lamp.turnOff();
 System.out.println("main ended");
 
 }
+
+
 
 }

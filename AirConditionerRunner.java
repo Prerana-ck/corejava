@@ -1,13 +1,12 @@
-class TelivisionRunner{
+class AirConditionerRunner{
 
 public static void main(String args[]){
 System.out.println("start of main");
-Telivision.turnOn();
-Telivision.turnOff();
+AirConditioner.turnOn();
+AirConditioner.turnOff();
 System.out.println("end of main");
 
 
 }
-
 
 }
