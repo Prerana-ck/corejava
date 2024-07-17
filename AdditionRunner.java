@@ -2,13 +2,11 @@ class AdditionRunner{
 
 public static void main(String adding[]){
 System.out.println("main started");
-Addition.add(37,76);
-Addition.add(43,67,65);
+byte byteValue=20;
+short shortValue=10000;
+Addition.getSum(byteValue,shortValue);
 
 System.out.println("main ended");
 }
-
-
-
 
 }

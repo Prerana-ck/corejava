@@ -1,14 +1,17 @@
 class Addition{
 
-public static void add(int num1, int num2){
- System.out.println(num1 + num2);
- return;
+public static void getSum(byte value1, short value2){
+ int add = value1+value2;
+ System.out.println("The sum is:" + add);
+return ;
 }
 
-public static void add(int num1, int num2,int num3){
- System.out.println(num1 + num2 + num3);
- return;
+public static void getSum(byte value1, short value2, int value3){
+ int add = value1+value2+value3;
+ System.out.println("The sum is:" + add);
+return ;
 }
+
 
 
 
