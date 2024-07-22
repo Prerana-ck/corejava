@@ -10,12 +10,41 @@ static String reEnterPasswrd;
 public static boolean createAccount(String firstName, String lastName, String password, String reEnterPassword){
 
 boolean isAccountCreated = false;
- frstName=firstName;
- lstName=lastName;
- passwrd=password;
- reEnterPasswrd=reEnterPassword;
-isAccountCreated= true;
-System.out.println("The acount is created:" + isAccountCreated);
+boolean isFirstName = false;
+boolean isLastName = false;
+boolean isPassword = false;
+boolean isReEnterPswrd=false;
+
+if(firstName!=null){
+	frstName=firstName;
+	isFirstName=true;
+}
+else
+	System.out.println("Invalid first name");
+if(lastName!=null){
+	lstName=lastName;
+	isLastName=true;
+}
+else
+	System.out.println("Invalid last name");
+if(password!=null){
+	 passwrd=password;
+	 isPassword=true;
+}
+else
+	System.out.println("Invalid password");
+if(reEnterPassword!=null){
+	 reEnterPasswrd=reEnterPassword;
+	 isReEnterPswrd=true;
+}
+else
+	System.out.println("Invalid reentered password");
+
+if(isFirstName==true && isLastName==true && isPassword==true && isReEnterPswrd==true){
+	isAccountCreated= true;
+	System.out.println("The acount is created:" + isAccountCreated);
+}
+ 
 return isAccountCreated;
 }
 
