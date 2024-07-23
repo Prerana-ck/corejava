@@ -18,7 +18,27 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  String password, String reEnterPswrd){
 				  
 				  boolean isAccountCreated = false;
-				  boolean isPhonenumber = false;
+				boolean isValidated = validateUserDetails(phonenumber,email,firstName,lastName,country,postalCode,adddress,
+				                                            jobTitle,jobType,companyName,password,reEnterPswrd);
+															
+				if(isValidated==true){
+					isAccountCreated=true;
+					System.out.println("The account is created: " + isAccountCreated);
+				}
+				else
+					System.out.println("The account is created: " + isAccountCreated);
+		
+				  
+				  return isAccountCreated;
+				  }
+				  
+				  
+				  public static boolean validateUserDetails(int phonenumber , String email , String firstName , String lastName ,
+                  String country , int postalCode , String adddress ,String jobTitle , String jobType , String companyName,
+				  String password, String reEnterPswrd){
+					  
+					  boolean isAccountValidate=false;
+		   boolean isPhonenumber = false;
 				  boolean isEmail = false;
 				  boolean isFirstName = false;
 				  boolean isLastName = false;
@@ -31,8 +51,7 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  boolean isPassword = false;
 				  boolean isReenterPasskey = false;
 				  
-				  
-				  if(phonenumber>= 0){
+				   if(phonenumber>= 0){
 				  phnumber=phonenumber;
 				  isPhonenumber = true;
 				  }
@@ -45,8 +64,8 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  }
 				  else
 				  System.out.println("Invalid email");
-				  
-				  if(email!=firstName){
+			  
+			       if(email!=firstName){
 				  frstName=firstName;
 				  isFirstName=true;
 				  }
@@ -59,8 +78,8 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  }
 				  else
 				  System.out.println("Invalid lastName");
-				  
-				  		  if(country!=null){
+			  
+			       if(country!=null){
 				  cuntry=country;
 				  isCountry=true;
 				  }
@@ -73,8 +92,8 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  }
 				  else
 				  System.out.println("Invalid postalCode");
-				  
-				  		  if(adddress!=null){
+			  
+			     	  if(adddress!=null){
 				  add=adddress;
 	
 				  isAddress=true;
@@ -88,22 +107,24 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  }
 				  else
 				  System.out.println("Invalid jobTitle");
+			  
+			  
 				  
-				  		  if(jobType!=null){
+				 	  if(jobType!=null){
 				  jobtype=jobType;
 				  isJobType=true;
 				  }
 				  else
 				  System.out.println("Invalid jobType");
 				  
-				  		  if(companyName!=null){
+				  	  if(companyName!=null){
 				  cmpnyname=companyName;
 				  isCompanyName=true;
 				  }
 				  else
 				  System.out.println("Invalid companyName");
-				  
-				  		  if(password!=null){
+			  
+			      if(password!=null){
 				  passwrd=password;
 				  isPassword=true;
 				  }
@@ -117,15 +138,16 @@ public static boolean createUserDetails(int phonenumber , String email , String 
 				  }
 				  else
 				  System.out.println("Invalid reentered passkey");
-				  
-				  
-				  if(isPhonenumber==true && isEmail==true && isFirstName==true && isLastName==true && isCompanyName==true && isPostalCode==true && isAddress==true && isJobTiitle==true && isJobType==true && isCompanyName==true 
+			  
+			     if(isPhonenumber==true && isEmail==true && isFirstName==true && isLastName==true && isCompanyName==true && isPostalCode==true && isAddress==true && isJobTiitle==true && isJobType==true && isCompanyName==true 
 				  && isPassword==true && isReenterPasskey==true){
-				  isAccountCreated=true;
+				  isAccountValidate=false;
+				  System.out.println("The account is validated:" + isAccountValidate);
 				  }
-				  return isAccountCreated;
+			  
+					  
+					  return isAccountValidate;
 				  }
-				  
 				  
 				  
 				  public static void readUserDetails(){

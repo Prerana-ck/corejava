@@ -7,8 +7,23 @@ static String reEnterPswrd;
 static int mpin;
 
 public static boolean createUserAccount(int accountNumber, String userId , String password ,String reEnterPassword ,int mPin){
+boolean isAccountCreated=false;
+boolean isvalidateaccount=validateUserDetails(accNumber,userId,password,reEnterPassword,mpin);
 
-boolean isAccountCreated = false;
+if(isvalidateaccount==true){
+	isAccountCreated=true;
+	System.out.println("The account is created : " + isAccountCreated);
+}
+else
+	System.out.println("The account is created : " + isAccountCreated);
+
+return isAccountCreated;
+
+}
+
+public static boolean validateUserDetails(int accountNumber, String userId , String password ,String reEnterPassword ,int mPin){
+	
+	boolean isaccountvalidate=false;
 boolean isAccountNumber = false;
 boolean isUserId = false;
 boolean isPassword = false;
@@ -51,10 +66,12 @@ else
 	System.out.println("Invalid mpin");
 
 if(isAccountNumber==true && isUserId==true && isPassword==true && isReEnterPswrd==true && isMpin==true){
- isAccountCreated=true;
+ isaccountvalidate=true;
+ System.out.println("The account is validated: " +isaccountvalidate);
 }
-return isAccountCreated;
-
+	
+	
+	return isaccountvalidate;
 }
 
 public static void readUserDetails(){

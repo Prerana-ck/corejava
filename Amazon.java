@@ -10,6 +10,22 @@ static String reEnterPasswrd;
 public static boolean createAccount(String firstName, String lastName, String password, String reEnterPassword){
 
 boolean isAccountCreated = false;
+
+      boolean isaccountvalidate=validateUserDetails(firstName,lastName,password,reEnterPassword);
+	  
+if(isaccountvalidate==true){
+	isAccountCreated=true;
+ System.out.println("The account is created:" + isAccountCreated);
+}
+else
+System.out.println("The account is created: " + isAccountCreated);
+ 
+return isAccountCreated;
+}
+
+
+public static boolean validateUserDetails(String firstName, String lastName, String password, String reEnterPassword){
+boolean isUserDetailsValidated = false;
 boolean isFirstName = false;
 boolean isLastName = false;
 boolean isPassword = false;
@@ -41,12 +57,14 @@ else
 	System.out.println("Invalid reentered password");
 
 if(isFirstName==true && isLastName==true && isPassword==true && isReEnterPswrd==true){
-	isAccountCreated= true;
-	System.out.println("The acount is created:" + isAccountCreated);
+	isUserDetailsValidated=true;
+	System.out.println("The acount is validated : " + isUserDetailsValidated);
 }
- 
-return isAccountCreated;
+	
+	
+	return isUserDetailsValidated;
 }
+
 
 public static void readUserDetails(){
 System.out.println("The first name of user is:" + frstName);

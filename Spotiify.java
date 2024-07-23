@@ -10,6 +10,23 @@ public static boolean createUserAccount(String userName, int phoneNumber , Strin
                                          reEnterPassword){
 										 
 boolean isAccountCreated = false;
+boolean isValidate = validateUserDetails(userName,phoneNumber,email,password,reEnterPassword);
+
+if(isValidate==true){
+	isAccountCreated=true;
+	System.out.println("The account is created: " + isAccountCreated);
+}
+else
+	System.out.println("The account is created: " + isAccountCreated);
+
+		return isAccountCreated;
+		}
+		
+		
+	public static boolean validateUserDetails(String userName, int phoneNumber , String email , String password , String 
+                                         reEnterPassword){
+			
+			boolean isAccountValidate = false;
 boolean isUserName = false;
 boolean isPhonenumber = false;
 boolean isEmail = false;
@@ -53,9 +70,11 @@ else
 System.out.println("Invalid reentered password");
 		
 		if(isUserName==true && isPhonenumber==true && isEmail==true && isPassword==true && isReEnterPaswrd==true){
-	isAccountCreated=true;
+	isAccountValidate=true;
+	System.out.println("The account is validated: " + isAccountValidate);
 		}
-		return isAccountCreated;
+			
+			return  isAccountValidate;
 		}
 		
 		public static void readUserDetails(){
@@ -64,7 +83,7 @@ System.out.println("Invalid reentered password");
 		System.out.println("The eMail is : " + eMail);
 		System.out.println("The password is : " + passwrd);
 		System.out.println("The reentered password is : " + reenterPasswrd);
-		
+		return;
 		
 		}
 

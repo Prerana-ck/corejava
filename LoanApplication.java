@@ -10,6 +10,22 @@ static int yearsofloan;
 public static boolean createUserAccount(String bankName , String loanApplicationName , String laonType , int creditScore 
                                             , int rateOfInterest, int yearsOfLoan){
    boolean isAccountCreated = false;
+   boolean isValidated = validateUserDetails(bankName,loanApplicationName,laonType,creditScore,rateOfInterest,yearsOfLoan);
+   
+   if(isValidated==true){
+	   isAccountCreated=true;
+	   System.out.println("The account is created: " + isAccountCreated);
+   }
+   else
+	   System.out.println("The account is created:" + isAccountCreated);
+
+return isAccountCreated;
+																					
+	}
+	
+	public static boolean validateUserDetails(String bankName , String loanApplicationName , String laonType , int creditScore 
+                                            , int rateOfInterest, int yearsOfLoan){
+	boolean isAccountValidate=false;
    boolean isBankName=true;
    boolean isLaonAppName = false;
    boolean isLoantype = false;
@@ -58,13 +74,16 @@ public static boolean createUserAccount(String bankName , String loanApplication
    }
    else
    System.out.println("Invalid yearsofloan ");
-   
+
+
 
 if(isBankName==true && isLaonAppName==true && isLoantype==true && isCreditScore==true && isRateOfInterest==true && isYearsOfInterest==true){
- isAccountCreated=true;
+ isAccountValidate=true;
+ System.out.println("The account is validated: " + isAccountValidate);
+ 
 }
-return isAccountCreated;
-																					
+		
+		return isAccountValidate;
 	}
 	
 	public static void readUserDetails(){
