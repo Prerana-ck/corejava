@@ -38,5 +38,17 @@ System.out.println("The alcohol name is added:" + alcoholAdded);
 
 
 MrpStore.displayAlcoholNames();
+
+boolean alcoholUpdated = MrpStore.updateAlcoholName("Vodka", "Morpheus");
+System.out.println("The alcohol name is updated:" + alcoholUpdated);
+
+
+MrpStore.displayAlcoholNames();
+
+boolean alcoholDeleted = MrpStore.deleteAlcoholName("Old Monk");
+System.out.println("The alcohol name is deleted:" + alcoholDeleted);
+
+
+MrpStore.displayAlcoholNames();
 }
 }

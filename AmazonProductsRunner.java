@@ -37,6 +37,15 @@ productAdded=AmazonProducts.addProductName("Lamp");
 System.out.println("The product is added:" + productAdded);
 
 
+AmazonProducts.displayProductNames();
+
+boolean isProductUpdated= AmazonProducts.updateProductName("Chairs","Grocery");
+System.out.println("product name is updated" + isProductUpdated);
+
+AmazonProducts.displayProductNames();
+
+boolean isProductNameDeleted = AmazonProducts.deleteProductName("Sunglasses");
+System.out.println("product name is deleted" + isProductNameDeleted);
 
 AmazonProducts.displayProductNames();
 }

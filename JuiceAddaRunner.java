@@ -31,6 +31,17 @@ System.out.println("The juice is added" + juiceAdded);
 
 
 JuiceAdda.displayJuiceName();
+
+boolean juiceUpdated = JuiceAdda.updateJuiceName("Apple" , "Pineapple");
+System.out.println("The juice name is updated " + juiceUpdated );
+
+JuiceAdda.displayJuiceName();
+
+boolean juiceDeleted = JuiceAdda.deleteJuicetName( "Orange");
+System.out.println("The juice name is deleted " + juiceDeleted );
+
+JuiceAdda.displayJuiceName();
+
 System.out.println("main ended");
 }
 

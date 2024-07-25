@@ -36,7 +36,15 @@ System.out.println("The product is added:" + placeAdded);
 placeAdded=SrsTravels.addTouristPlace("Chikkmagalur");
 System.out.println("The product is added:" + placeAdded);
 
+SrsTravels.displayPlaceNames();
 
+boolean isPlaceUpdated= SrsTravels.updatePlaceName("Halebidd","Nandhi Hills");
+System.out.println("place name is updated" + isPlaceUpdated);
+
+SrsTravels.displayPlaceNames();
+
+boolean isPlaceDeleted = SrsTravels.deletePlaceName("Dhudh sagar");
+System.out.println("place name is deleted" + isPlaceDeleted);
 
 SrsTravels.displayPlaceNames();
 }

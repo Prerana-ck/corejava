@@ -37,8 +37,16 @@ System.out.println("The medicine name is added:" + medicineAdded);
 System.out.println("The medicine name is added:" + medicineAdded);
 
 
+GaneshMedicals.displayMedicineNames();
+
+boolean medicineUpdated = GaneshMedicals.updateMedicineName("Dola", "Hepamerz");
+System.out.println("The medicine name is updated:" + medicineUpdated);
 
 
+GaneshMedicals.displayMedicineNames();
+
+boolean medicineDeleted = GaneshMedicals.deleteMedicineName("Hetrazan");
+System.out.println("The medicine name is deleted:" + medicineDeleted);
 
 
 GaneshMedicals.displayMedicineNames();
