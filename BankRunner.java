@@ -75,15 +75,15 @@ System.out.println("bank swiftCode  is " + bank4.swiftCode);
 System.out.println("number of workers in the bank is " + bank4.noOfWorker);
 System.out.println("branch manager is "+ bank4.branchManager);
 
-Bank bank5=new Bank();
+Bank bank5=new Bank(4842,"CSB", "8th mile","CSB0005943","CSBCB270",10000,"Rakshith");
 System.out.println("fifth bank");
-bank5.id = 4842;
+/*bank5.id = 4842;
 bank5.name="CSB";
 bank5. branchName="8th mile";
 bank5.ifscCode="CSB0005943";
 bank5.swiftCode="CSBCB270";
 bank5.noOfWorker=10000;
-bank5.branchManager="Rakshith";
+bank5.branchManager="Rakshith";*/
 System.out.println("bank id is "+bank5.id);
 System.out.println("bank name is "+bank5.name);
 System.out.println("bank branch name is "+ bank5.branchName);
@@ -92,15 +92,15 @@ System.out.println("bank swiftCode  is " + bank5.swiftCode);
 System.out.println("number of workers in the bank is " + bank5.noOfWorker);
 System.out.println("branch manager is "+ bank5.branchManager);
 
-Bank bank6=new Bank();
+Bank bank6=new Bank(4532,"Mysore Bank","yeshwantpura","MSB0005943","MSBMB270",10000,"Raman");
 System.out.println("sixth bank");
-bank6.id = 4532;
+/*bank6.id = 4532;
 bank6.name="Mysore Bank";
 bank6. branchName="yeshwantpura";
 bank6.ifscCode="MSB0005943";
 bank6.swiftCode="MSBMB270";
 bank6.noOfWorker=10000;
-bank6.branchManager="Raman";
+bank6.branchManager="Raman";*/
 System.out.println("bank id is "+bank6.id);
 System.out.println("bank name is "+bank6.name);
 System.out.println("bank branch name is "+ bank6.branchName);
@@ -109,15 +109,15 @@ System.out.println("bank swiftCode  is " + bank6.swiftCode);
 System.out.println("number of workers in the bank is " + bank6.noOfWorker);
 System.out.println("branch manager is "+ bank6.branchManager);
 
-Bank bank7=new Bank();
+Bank bank7=new Bank(4532,"Corporate bank","Peenya","CPR0005943","CPRINB270",30000,"Rakesh");
 System.out.println("seventh bank");
-bank7.id = 4532;
-bank7.name="SBI";
+/*bank7.id = 4532;
+bank7.name="Corporate bank";
 bank7. branchName="Peenya";
-bank7.ifscCode="SBIN0005943";
-bank7.swiftCode="SBININBB270";
+bank7.ifscCode="CPR0005943";
+bank7.swiftCode="CPRINB270";
 bank7.noOfWorker=30000;
-bank7.branchManager="Rakesh";
+bank7.branchManager="Rakesh";*/
 System.out.println("bank id is "+bank7.id);
 System.out.println("bank name is "+bank7.name);
 System.out.println("bank branch name is "+ bank7.branchName);
@@ -126,15 +126,15 @@ System.out.println("bank swiftCode  is " + bank7.swiftCode);
 System.out.println("number of workers in the bank is " + bank7.noOfWorker);
 System.out.println("branch manager is "+ bank7.branchManager);
 
-Bank bank8=new Bank();
+Bank bank8=new Bank(4533,"Syndicate bank","Marathalli","SYND0005943","SYNDBIN270",30000,"Rajesh");
 System.out.println("Eigth bank");
-bank8.id = 4532;
-bank8.name="SBI";
-bank8. branchName="Peenya";
-bank8.ifscCode="SBIN0005943";
-bank8.swiftCode="SBININBB270";
+/*bank8.id = 4533;
+bank8.name="Syndicate bank";
+bank8. branchName="Marathalli";
+bank8.ifscCode="SYND0005943";
+bank8.swiftCode="SYNDBIN270";
 bank8.noOfWorker=30000;
-bank8.branchManager="Rajesh";
+bank8.branchManager="Rajesh";*/
 System.out.println("bank id is "+bank1.id);
 System.out.println("bank name is "+bank1.name);
 System.out.println("bank branch name is "+ bank1.branchName);

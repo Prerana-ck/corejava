@@ -61,39 +61,39 @@ System.out.println("card number is: " +card4.cardNo);
 System.out.println("card expiration date " + card4.expDate);
 System.out.println("card cvv is "+card4.cvv);
 
-DebitCard card5= new DebitCard();
+DebitCard card5= new DebitCard(2132,"Raman",4467896789704546L,"05/25", 312);
 System.out.println("Fifth card details...");
-card5.cardId=2132;
+/*card5.cardId=2132;
 card5.cardHolderName="Raman";
 card5.cardNo= 4467896789704546L;
 card5.expDate="05/25";
-card5.cvv = 312;
+card5.cvv = 312;*/
 System.out.println("card id is: "+card5.cardId);
 System.out.println("card holder name is: "+card5.cardHolderName);
 System.out.println("card number is: " +card5.cardNo);
 System.out.println("card expiration date " + card5.expDate);
 System.out.println("card cvv is "+card5.cvv);
 
-DebitCard card6= new DebitCard();
+DebitCard card6= new DebitCard(1212,"Ramya",4432676789704546L,"06/25",676);
 System.out.println("Sixth card details...");
-card6.cardId=1212;
+/*card6.cardId=1212;
 card6.cardHolderName="Ramya";
 card6.cardNo= 4432676789704546L;
 card6.expDate="06/25";
-card6.cvv = 676;
+card6.cvv = 676;*/
 System.out.println("card id is: "+card6.cardId);
 System.out.println("card holder name is: "+card6.cardHolderName);
 System.out.println("card number is: " +card6.cardNo);
 System.out.println("card expiration date " + card6.expDate);
 System.out.println("card cvv is "+card6.cvv);
 
-DebitCard card7= new DebitCard();
+DebitCard card7= new DebitCard(3425,"Rajesh",4564678389704546L,"06/25",549);
 System.out.println("Seventh card details...");
-card7.cardId=3425;
+/*card7.cardId=3425;
 card7.cardHolderName="Rajesh";
 card7.cardNo= 4564678389704546L;
 card7.expDate="06/25";
-card7.cvv = 549;
+card7.cvv = 549;*/
 System.out.println("card id is: "+card7.cardId);
 System.out.println("card holder name is: "+card7.cardHolderName);
 System.out.println("card number is: " +card7.cardNo);
@@ -101,13 +101,13 @@ System.out.println("card expiration date " + card7.expDate);
 System.out.println("card cvv is "+card7.cvv);
 
 
-DebitCard card8= new DebitCard();
+DebitCard card8= new DebitCard(3422,"Ramesh",3464678389704546L,"09/25",379);
 System.out.println("Eight card details...");
-card8.cardId=3425;
+/*card8.cardId=3422;
 card8.cardHolderName="Ramesh";
 card8.cardNo= 3464678389704546L;
 card8.expDate="09/25";
-card8.cvv = 379;
+card8.cvv = 379;*/
 System.out.println("card id is: "+card8.cardId);
 System.out.println("card holder name is: "+card8.cardHolderName);
 System.out.println("card number is: " +card8.cardNo);

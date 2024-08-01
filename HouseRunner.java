@@ -65,14 +65,14 @@ System.out.println("Name of house is "+ house4.houseName);
 System.out.println("Area of house inn square feet" + house4.areaInSqrt);
 System.out.println("Number of members in house " + house4.noOfMembers);
 
-House house5 = new House();
+House house5 = new House(1178,4,2,"Yashovana",1000,5);
 System.out.println("Fifth house");
-house5.id=1178;
+/*house5.id=1178;
 house5.noOfRooms=4;
 house5.noOfFloors =2;
  house5.houseName="Yashovana";
  house5.areaInSqrt=1000;
- house5.noOfMembers=5;
+ house5.noOfMembers=5;*/
 System.out.println("house id is " + house5.id);
 System.out.println("Number of rooms is " + house5.noOfRooms);
 System.out.println("Number of floors is "+ house5.noOfFloors);
@@ -80,14 +80,14 @@ System.out.println("Name of house is "+ house5.houseName);
 System.out.println("Area of house inn square feet" + house5.areaInSqrt);
 System.out.println("Number of members in house " + house5.noOfMembers);
 
-House house6 = new House();
-System.out.println("Sixth house");
+House house6 = new House(1267,6,3,"Lakshmi nilaya",1500,5);
+/*System.out.println("Sixth house");
 house6.id=1267;
 house6.noOfRooms=6;
 house6.noOfFloors =3;
  house6.houseName="Lakshmi nilaya";
  house6.areaInSqrt=1500;
- house6.noOfMembers=5;
+ house6.noOfMembers=5;*/
 System.out.println("house id is " + house6.id);
 System.out.println("Number of rooms is " + house6.noOfRooms);
 System.out.println("Number of floors is "+ house6.noOfFloors);
@@ -95,14 +95,14 @@ System.out.println("Name of house is "+ house6.houseName);
 System.out.println("Area of house inn square feet" + house6.areaInSqrt);
 System.out.println("Number of members in house " + house6.noOfMembers);
 
-House house7 = new House();
+House house7 = new House(1252,3,1,"Shanthi nilaya",1100,5);
 System.out.println("seventh house");
-house7.id=1252;
+/*house7.id=1252;
 house7.noOfRooms=3;
 house7.noOfFloors =1;
  house7.houseName="Shanthi nilaya";
  house7.areaInSqrt=1100;
- house7.noOfMembers=5;
+ house7.noOfMembers=5;*/
 System.out.println("house id is " + house7.id);
 System.out.println("Number of rooms is " + house7.noOfRooms);
 System.out.println("Number of floors is "+ house7.noOfFloors);
@@ -110,14 +110,14 @@ System.out.println("Name of house is "+ house7.houseName);
 System.out.println("Area of house inn square feet" + house7.areaInSqrt);
 System.out.println("Number of members in house " + house7.noOfMembers);
 
-House house8 = new House();
+House house8 = new House(1173,4,2,"Hanuman nilaya",1000,5);
 System.out.println("Eight house");
-house8.id=1173;
+/*house8.id=1173;
 house8.noOfRooms=4;
 house8.noOfFloors =2;
  house8.houseName="Hanuman nilaya";
  house8.areaInSqrt=1000;
- house8.noOfMembers=5;
+ house8.noOfMembers=5;*/
 System.out.println("house id is " + house8.id);
 System.out.println("Number of rooms is " + house8.noOfRooms);
 System.out.println("Number of floors is "+ house8.noOfFloors);
