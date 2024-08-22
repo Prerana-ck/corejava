@@ -1,0 +1,56 @@
+1) 
+1)public static void main(String args[]): is the main method signature which has access specifier 
+as public which makes everything inside main available to the class and other class, static is a
+access modifier , void is return type and main is a name of the method.
+2)class: it is a template or design which has some states and behaviours included within it.
+Object:it is a physical entity which has copy of the class or instance of the class.
+3)jdk: java development kit is a fully development tool which includes runtime environment
+and jvm  includes both compile time and runtime
+jre:it is a tool which provides runtime environment with the help of jvm internally.
+jvm:it is a tool which is actually providing runtime environment, which loads the .class file,
+verifies, run.
+
+2)constructor is a special type of method which doesn't have any return type, which has method name 
+same as class name.
+2 types of constructor are parametrized, default constructor.
+
+3)this keyword is used to tell/assign that both instance and parameter variables is same when
+both the variable name are same.
+this() is used while constructor chainning for different parameters 
+
+4)because the if it is made as instance then it's copy should be created which there is of
+no need and every time it's copy will be loaded. so it is made asa static .
+there are 2 types of methods static and instance
+when instance method is created it's copy will be created
+
+5)class loaders loads the class at the time of execution
+
+6)
+
+7) class Array{
+
+public static void main(String args[]){
+
+int arr[]={12,3,2,45,67,6};
+System.out.prinltn("the length of array is " + arr.length());
+}
+}
+
+8)No, instance variables can't be used inside static methods, bcz inside static we can access
+only static variables so we get an error.
+
+9)An object behaving differently at given instance of time is called polymorphism with the help of
+@Override annotation.
+ex: class Child extends Parent{
+@Override
+public static void show(){
+System.out.println("display");
+}
+}
+show method is present in parent which is override here in child class
+
+10) Acquiring/inheriting the properties/behaviour of parent class to the child class
+with the help of extends keyword is called inheritence.
+ex: class Child extends Parent{
+}
+extends keyword is helping child class to inherit parent class
